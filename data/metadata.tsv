@@ -1,0 +1,26 @@
+sample	group	status
+# Replace the rows below with your actual sample IDs and group assignments.
+# sample : exact FASTA header (tip label in IQ-TREE output)
+# group  : one of the six population codes below
+# status : wild | domestic
+#
+# Valid group codes:
+#   L_g_cacsilensis  – Lama guanicoe cacsilensis (northern guanaco)
+#   L_g_guanicoe     – Lama guanicoe guanicoe (southern guanaco)
+#   L_glama          – Lama glama (llama)
+#   V_v_mensalis     – Vicugna vicugna mensalis (northern vicuña)
+#   V_v_vicugna      – Vicugna vicugna vicugna (southern vicuña)
+#   V_pacos          – Vicugna pacos (alpaca)
+#
+SAMPLE_ID_1	L_g_cacsilensis	wild
+SAMPLE_ID_2	L_g_cacsilensis	wild
+SAMPLE_ID_3	L_g_guanicoe	wild
+SAMPLE_ID_4	L_g_guanicoe	wild
+SAMPLE_ID_5	L_glama	domestic
+SAMPLE_ID_6	L_glama	domestic
+SAMPLE_ID_7	V_v_mensalis	wild
+SAMPLE_ID_8	V_v_mensalis	wild
+SAMPLE_ID_9	V_v_vicugna	wild
+SAMPLE_ID_10	V_v_vicugna	wild
+SAMPLE_ID_11	V_pacos	domestic
+SAMPLE_ID_12	V_pacos	domestic
