@@ -2,7 +2,7 @@
 # ─────────────────────────────────────────────────────────────────────────────
 # Mantel tests (mtDNA vs MSY pairwise distances) + scatter plots
 #
-# Paper: "Sex-biased demographic history of South American camelids revealed
+# Paper: "Sex-biased introgression during South American camelid domestication revealed
 #         by complete mitochondrial genomes and a 20.6 Mb Y-chromosome scaffold"
 #
 # Tests performed:
