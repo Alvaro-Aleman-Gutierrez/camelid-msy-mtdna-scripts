@@ -2,8 +2,7 @@
 # ─────────────────────────────────────────────────────────────────────────────
 # busted_lollipop.R — Lollipop plot of BUSTED results (22 MSY genes)
 #
-# Paper: "Sex-biased demographic history of South American camelids revealed
-#         by complete mitochondrial genomes and a 20.6 Mb Y-chromosome scaffold"
+# Paper: "Sex-biased introgression during South American camelid domestication revealed by complete mitochondrial genomes and a 20.6 Mb Y-chromosome scaffold"
 #
 # Input : busted_summary_tableS3.csv  (output of parse_busted_results.py)
 # Output: busted_lollipop.pdf / .tiff  (Supplementary Figure)
