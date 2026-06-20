@@ -1,4 +1,4 @@
-# Analysis scripts — *Sex-biased demographic history of South American camelids revealed by complete mitochondrial genomes and a 20.6 Mb Y-chromosome scaffold*
+# Analysis scripts — *Sex-biased introgression during South American camelid domestication revealed by complete mitochondrial genomes and a 20.6 Mb Y-chromosome scaffold*
 
 **Authors:** Álvaro Alemán-Gutiérrez, Andrés Peña-Monroy, *et al.*  
 **Journal:** *Heredity* (in review)  
@@ -95,7 +95,7 @@ conda install -c bioconda bwa samtools gatk4 bcftools mafft parallel iqtree
 | Package | Version | Purpose |
 |---|---|---|
 | `PopGenome` | 2.7.5 | π, θW, Tajima's D, FST, sliding windows |
-| `ggrepel` | 0.9.x | Non-overlapping labels in BUSTED lollipop plot |
+| `ggrepel` | 0.9.x | Non-overlapping labels (optional; not required for BUSTED lollipop) |
 | `ape` | 5.8.1 | Sequence I/O, distance matrices, PCoA, tree parsing |
 | `pegas` | 1.4 | AMOVA, haplotype networks |
 | `vegan` | 2.7.5 | Mantel tests |
@@ -214,7 +214,7 @@ Alignments and intermediate outputs can be regenerated from the raw reads follow
 
 If you use these scripts, please cite:
 
-> Alemán-Gutiérrez A, Peña-Monroy A, *et al.* (2026) Sex-biased demographic history of South American camelids revealed by complete mitochondrial genomes and a 20.6 Mb Y-chromosome scaffold. *Heredity*. doi: *pending*.
+> Alemán-Gutiérrez A, *et al.* (2026) Sex-biased introgression during South American camelid domestication revealed by complete mitochondrial genomes and a 20.6 Mb Y-chromosome scaffold. *Heredity*. doi: *pending*.
 
 ---
 
