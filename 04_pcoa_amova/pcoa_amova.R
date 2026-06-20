@@ -2,7 +2,7 @@
 # ─────────────────────────────────────────────────────────────────────────────
 # PCoA (mtDNA and MSY) + AMOVA
 #
-# Paper: "Sex-biased demographic history of South American camelids revealed
+# Paper: "Sex-biased introgression during South American camelid domestication revealed
 #         by complete mitochondrial genomes and a 20.6 Mb Y-chromosome scaffold"
 #
 # Inputs:
