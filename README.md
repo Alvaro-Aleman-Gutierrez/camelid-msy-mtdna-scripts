@@ -3,7 +3,7 @@
 **Authors:** Álvaro Alemán-Gutiérrez, Andrés Peña-Monroy, *et al.*  
 **Journal:** *Heredity* (in review)  
 **Preprint / DOI:** *pending*  
-**Repository:** https://github.com/Alvaro-Aleman-Gutierrez/-camelid-msy-mtdna-scripts
+**Repository:** https://github.com/Alvaro-Aleman-Gutierrez/camelid-msy-mtdna-scripts
 
 ---
 
@@ -56,7 +56,10 @@ Outgroup: *Camelus dromedarius* (mtDNA: NC_009849.1; MSY: NC_087473.1).
 │   └── fisher_discordance.R       # Fisher's exact test for V. pacos discordance
 │
 ├── 07_selection/
-│   └── per_gene_dnds.R            # Per-gene dN/dS via seqinr::kaks() (Table S2)
+│   ├── per_gene_dnds.R            # Per-gene dN/dS via seqinr::kaks() (Table S2)
+│   ├── run_busted_all.sh          # BUSTED episodic selection on 22 MSY genes (HyPhy v2.5.2)
+│   ├── parse_busted_results.py    # Parse BUSTED JSON output → Table S3 CSV
+│   └── busted_lollipop.R          # Lollipop plot of BUSTED p-values (Supp. Fig. S5)
 │
 ├── 08_figures/
 │   ├── ne_ratio_plot.R            # Ne_f / Ne_m ratio bar chart (Fig. 7)
@@ -92,6 +95,7 @@ conda install -c bioconda bwa samtools gatk4 bcftools mafft parallel iqtree
 | Package | Version | Purpose |
 |---|---|---|
 | `PopGenome` | 2.7.5 | π, θW, Tajima's D, FST, sliding windows |
+| `ggrepel` | 0.9.x | Non-overlapping labels in BUSTED lollipop plot |
 | `ape` | 5.8.1 | Sequence I/O, distance matrices, PCoA, tree parsing |
 | `pegas` | 1.4 | AMOVA, haplotype networks |
 | `vegan` | 2.7.5 | Mantel tests |
@@ -193,7 +197,7 @@ All figures use the [Wong (2011)](https://www.nature.com/articles/nmeth.1618) se
 
 - **Haplogroups:** Two reciprocally monophyletic lineages on both markers — H-Lama (*Lama* spp.) and H-Vicugna (*Vicugna* spp.) — with 75% of *V. pacos* (alpaca) individuals carrying the H-Lama mtDNA haplogroup (Fisher's exact test, p < 0.001).
 - **Sex-biased introgression:** π_mtDNA / π_MSY = 3.82 in *V. pacos* vs. 1.03–1.76 in wild species, consistent with female-biased introgression during domestication.
-- **Purifying selection:** Per-gene ω = 0.20–0.24 across 22 MSY coding sequences; HSFY1 (ω = 1.283) is the sole outlier consistent with positive selection.
+- **Purifying selection:** Per-gene ω = 0.20–0.24 across 22 MSY coding sequences. Formal BUSTED analysis identified episodic diversifying selection in 4 genes (CUL4BY, HSFY2, ZFY, EIF1AY; p < 0.05), all with roles in spermatogenesis or sex determination. HSFY1 (ω = 1.283) showed no significant BUSTED signal (p = 0.153).
 - **Population structure:** MSY FST is uniformly higher than mtDNA FST across all pairwise comparisons, indicating stronger male-biased drift.
 
 ---
