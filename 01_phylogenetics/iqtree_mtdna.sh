@@ -2,7 +2,7 @@
 # ─────────────────────────────────────────────────────────────────────────────
 # IQ-TREE 3 — Maximum-likelihood phylogeny of the complete mitochondrial genome
 #
-# Paper: "Sex-biased demographic history of South American camelids revealed
+# Paper: "Sex-biased introgression during South American camelid domestication revealed
 #         by complete mitochondrial genomes and a 20.6 Mb Y-chromosome scaffold"
 #
 # Input  : Multiple-sequence alignment of complete mtDNA (16,643 bp)
