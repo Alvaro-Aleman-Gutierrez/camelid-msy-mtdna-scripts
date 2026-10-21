@@ -1,6 +1,6 @@
 # Analysis scripts — *Sex-biased introgression during South American camelid domestication revealed by complete mitochondrial genomes and a 20.6 Mb Y-chromosome scaffold*
 
-**Authors:** Álvaro Alemán-Gutiérrez, Andrés Peña-Monroy, *et al.*  
+**Authors:** Álvaro Alemán-Gutiérrez, *et al.*  
 **Journal:** (in review)  
 **Preprint / DOI:** *pending*  
 **Repository:** https://github.com/Alvaro-Aleman-Gutierrez/camelid-msy-mtdna-scripts
@@ -214,7 +214,7 @@ Alignments and intermediate outputs can be regenerated from the raw reads follow
 
 If you use these scripts, please cite:
 
-> Alemán-Gutiérrez A, *et al.* (2026) Sex-biased introgression during South American camelid domestication revealed by complete mitochondrial genomes and a 20.6 Mb Y-chromosome scaffold. *Heredity*. doi: *pending*.
+> Alemán-Gutiérrez A, *et al.* (2026) Sex-biased introgression during South American camelid domestication revealed by complete mitochondrial genomes and a 20.6 Mb Y-chromosome scaffold. *in review*. doi: *pending*.
 
 ---
 
